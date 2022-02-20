@@ -12,8 +12,9 @@ struct ColorView: View {
     var body: some View {
         Rectangle()
             .foregroundColor(color)
-            .frame(width: 350, height: 130)
+            .frame(width: 350, height: 160)
             .cornerRadius(20)
+            .padding(.bottom, 100)
     }
 }
 
