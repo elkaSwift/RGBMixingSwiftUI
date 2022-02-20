@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ColorTextFieldView: View {
+    @State private var textValue = ""
+    @Binding private var value: Double
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField(textValue: $textValue, value: $value)
     }
 }
 
