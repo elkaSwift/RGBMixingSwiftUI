@@ -16,11 +16,12 @@ struct ColorTextFieldView: View {
     var body: some View {
         TextField("", text: $textValue) { _ in
             withAnimation {
-                
+                checkValue()
             }
         }
         .frame(width: 50, alignment: .trailing)
         .textFieldStyle(.roundedBorder)
+        .multilineTextAlignment(.trailing)
         .keyboardType(.decimalPad)
         .alert("Wrong Format", isPresented: $showAlert, actions: {}) {
             Text("Enter a value from 0 to 255")
