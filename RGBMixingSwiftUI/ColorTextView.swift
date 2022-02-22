@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct ColorTextView: View {
+    
+    let value: Double
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("\(lround(value))")
+            .frame(width: 50, alignment: .leading)
     }
 }
 
 struct ColorTextView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorTextView()
+        ColorTextView(value: 0)
     }
 }
