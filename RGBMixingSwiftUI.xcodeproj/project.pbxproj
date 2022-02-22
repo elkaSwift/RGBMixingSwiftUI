@@ -61,10 +61,10 @@
 			children = (
 				1C2C8B9227C26DFC002A5F1A /* RGBMixingSwiftUIApp.swift */,
 				1C2C8B9427C26DFC002A5F1A /* ContentView.swift */,
-				1C2C8BA827C26FC7002A5F1A /* ColorView.swift */,
-				1C2C8BAE27C2B8D7002A5F1A /* ColorTextView.swift */,
 				1C2C8BAA27C281A2002A5F1A /* ColorSliderView.swift */,
 				1C2C8BAC27C2B8BD002A5F1A /* ColorTextFieldView.swift */,
+				1C2C8BA827C26FC7002A5F1A /* ColorView.swift */,
+				1C2C8BAE27C2B8D7002A5F1A /* ColorTextView.swift */,
 				1C2C8B9627C26DFE002A5F1A /* Assets.xcassets */,
 				1C2C8B9827C26DFE002A5F1A /* Preview Content */,
 			);
